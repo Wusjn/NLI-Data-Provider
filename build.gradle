@@ -1,0 +1,45 @@
+group 'edu.pku.sei.wusj'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        //mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+bootJar {
+    baseName = 'NLI-Data-provider'
+    version =  '0.1.0'
+}
+
+repositories {
+    //mavenLocal()
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+configurations{
+    compile.exclude module: 'logback-classic'
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile 'org.neo4j:neo4j-ogm-core:3.1.11'
+    compile 'org.slf4j:slf4j-nop:1.7.25'
+    //compile 'org.neo4j:neo4j-ogm-api:3.1.6'
+    compile 'org.neo4j:neo4j-ogm-bolt-driver:3.1.11' // Only add if you're using the Bolt driver
+    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.14.5'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+}
