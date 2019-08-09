@@ -1,0 +1,36 @@
+{
+  "functionalFeature" : "set cell color",
+  "text" : [
+    "CellStyle style = ",
+    "HOLE",
+    ".createCellStyle();\n",
+    "style.setFillForegroundColor(",
+    "HOLE",
+    ".getIndex());\n",
+    "style.setFillBackgroundColor(",
+    "HOLE",
+    ".getIndex());\n",
+    "style.setFillPattern(",
+    "HOLE",
+    ");\n",
+    "HOLE",
+    ".setCellStyle(style);"
+  ],
+  "type" : [
+    "org.apache.poi.ss.usermodel.Workbook",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "org.apache.poi.ss.usermodel.FillPatternType",
+    "org.apache.poi.ss.usermodel.Cell"
+  ],
+  "info" : [
+    "Workbook",
+    "Foreground Color",
+    "Background Color",
+    "Fill pattern",
+    "Cell"
+  ],
+  "symbol" : {
+    "CellStyle" : "org.apache.poi.ss.usermodel.CellStyle"
+  }
+}
