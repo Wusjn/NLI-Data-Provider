@@ -1,0 +1,47 @@
+{
+  "functionalFeature": "add a shape",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "HSSFPatriarch patriarch_ = (HSSFPatriarch) sheet_.getDrawingPatriarch();\n",
+    "if (patriarch_ == null) {\n",
+    "    patriarch_ = ((HSSFPatriarch) sheet_.createDrawingPatriarch());\n",
+    "}\n",
+    "HSSFClientAnchor a_ = new HSSFClientAnchor(0, 0, 0, 0, (short) ",
+    "<HOLE1>",
+    ", ",
+    "<HOLE2>",
+    ", (short) ",
+    "<HOLE3>",
+    ", ",
+    "<HOLE4>",
+    ");\n",
+    "HSSFSimpleShape shape_ = patriarch_.createSimpleShape(a_);\n",
+    "shape_.setShapeType(",
+    "<HOLE5>",
+    ");\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "int",
+    "int",
+    "int",
+    "int",
+    "short"
+  ],
+  "info": [
+    "target sheet",
+    "start column",
+    "start row",
+    "end column",
+    "end row",
+    "shape type"
+  ],
+  "symbol": {
+    "HSSFClientAnchor": "org.apache.poi.hssf.usermodel.HSSFClientAnchor",
+    "HSSFPatriarch": "org.apache.poi.hssf.usermodel.HSSFPatriarch",
+    "HSSFSimpleShape": "org.apache.poi.hssf.usermodel.HSSFSimpleShape",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

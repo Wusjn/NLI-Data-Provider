@@ -43,6 +43,6 @@ dependencies {
     //compile 'org.slf4j:slf4j-nop:1.7.25'
     //compile 'org.neo4j:neo4j-ogm-api:3.1.6'
     compile 'org.neo4j:neo4j-ogm-bolt-driver:3.1.11' // Only add if you're using the Bolt driver
-    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.14.5'
+    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.12.0'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 }

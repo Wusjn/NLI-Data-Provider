@@ -1,0 +1,55 @@
+{
+  "functionalFeature": "set cell font",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "HSSFWorkbook wb_ = ((HSSFWorkbook) cell_.getRow().getSheet().getWorkbook());\n",
+    "CellStyle style_ = cell_.getCellStyle();\n",
+    "Font font_ = wb_.createFont();\n",
+    "font_.setColor(",
+    "<HOLE1>",
+    ".getIndex());\n",
+    "font_.setFontHeight((short)",
+    "<HOLE2>",
+    ");\n",
+    "font_.setFontName(",
+    "<HOLE3>",
+    ");\n",
+    "font_.setItalic(",
+    "<HOLE4>",
+    ");\n",
+    "font_.setBold(",
+    "<HOLE5>",
+    ");\n",
+    "font_.setStrikeout(",
+    "<HOLE6>",
+    ");\n",
+    "style_.setFont(font_);\n",
+    "cell_.setCellStyle(style_);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "int",
+    "java.lang.String",
+    "boolean",
+    "boolean",
+    "boolean"
+  ],
+  "info": [
+    "target cell",
+    "font color",
+    "font height",
+    "font name",
+    "is Italic",
+    "is Bold",
+    "is Strikeout"
+  ],
+  "symbol": {
+    "HSSFWorkbook": "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "CellStyle": "org.apache.poi.ss.usermodel.CellStyle",
+    "Font": "org.apache.poi.ss.usermodel.Font"
+  }
+}

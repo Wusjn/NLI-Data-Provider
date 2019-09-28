@@ -1,0 +1,22 @@
+{
+  "functionalFeature": "fit sheet to one page",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "PrintSetup ps_ = sheet_.getPrintSetup();\n",
+    "sheet_.setAutobreaks(true);\n",
+    "ps_.setFitHeight((short) 1);\n",
+    "ps_.setFitWidth((short) 1);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet"
+  ],
+  "info": [
+    "target sheet"
+  ],
+  "symbol": {
+    "PrintSetup": "org.apache.poi.ss.usermodel.PrintSetup",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

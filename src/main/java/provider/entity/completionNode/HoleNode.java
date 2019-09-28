@@ -12,17 +12,18 @@ public class HoleNode implements CompletionNode {
     public boolean isPrimitiveType;
     public String shortName;
 
-    public String toCode(){
+    public String toCode() {
         return "<" + shortName + ">";
     }
-    public HoleNode(String qualifiedTypeName){
+
+    public HoleNode(String qualifiedTypeName) {
         this.qualifiedTypeName = qualifiedTypeName;
 
         int lastDot = qualifiedTypeName.lastIndexOf(".");
-        if(lastDot == -1){
+        if (lastDot == -1) {
             this.isPrimitiveType = true;
             this.shortName = qualifiedTypeName;
-        }else {
+        } else {
             this.isPrimitiveType = false;
             this.shortName = qualifiedTypeName.substring(lastDot + 1);
         }
@@ -32,7 +33,7 @@ public class HoleNode implements CompletionNode {
     @Override
     public List<String> getTypes() {
         List<String> types = new ArrayList<>();
-        if (!isPrimitiveType && !qualifiedTypeName.startsWith("java.lang")){
+        if (!isPrimitiveType && !qualifiedTypeName.startsWith("java.lang")) {
             types.add(qualifiedTypeName);
         }
 

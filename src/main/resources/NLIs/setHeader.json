@@ -1,0 +1,34 @@
+{
+  "functionalFeature": "set sheet header",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "Header header_ = sheet_.getHeader();\n",
+    "header_.setCenter(",
+    "<HOLE1>",
+    ");\n",
+    "header_.setLeft(",
+    "<HOLE2>",
+    ");\n",
+    "header_.setRight(",
+    "<HOLE3>",
+    ");\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "java.lang.String",
+    "java.lang.String",
+    "java.lang.String"
+  ],
+  "info": [
+    "target sheet",
+    "middle header",
+    "left header ",
+    "right header"
+  ],
+  "symbol": {
+    "Header": "org.apache.poi.ss.usermodel.Header",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

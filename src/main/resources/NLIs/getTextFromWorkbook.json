@@ -1,0 +1,36 @@
+{
+  "functionalFeature": "get text from workbook",
+  "text": [
+    "HSSFWorkbook wb_ = ",
+    "<HOLE0>",
+    ";\n",
+    "ExcelExtractor excelExtractor_ = null;\n",
+    "try {\n",
+    "    excelExtractor_ = new ExcelExtractor(wb_);\n",
+    "} catch (Exception e) {\n",
+    "    e.printStackTrace();\n",
+    "}\n",
+    "excelExtractor_.setFormulasNotResults(",
+    "<HOLE1>",
+    ");\n",
+    "excelExtractor_.setIncludeSheetNames(",
+    "<HOLE2>",
+    ");\n",
+    "String text_ = excelExtractor_.getText();\n",
+    "//write your code here\n"
+  ],
+  "type": [
+    "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+    "boolean",
+    "boolean"
+  ],
+  "info": [
+    "target HSSFWorkbook",
+    "include formulas?",
+    "include sheet names?"
+  ],
+  "symbol": {
+    "ExcelExtractor": "org.apache.poi.hssf.extractor.ExcelExtractor",
+    "HSSFWorkbook": "org.apache.poi.hssf.usermodel.HSSFWorkbook"
+  }
+}

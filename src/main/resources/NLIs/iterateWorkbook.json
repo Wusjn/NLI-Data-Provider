@@ -1,0 +1,28 @@
+{
+  "functionalFeature": "iterate a workbook",
+  "text": [
+    "Workbook wb_ = ",
+    "<HOLE0>",
+    ";\n",
+    "for (Sheet sheet_ : wb_) {\n",
+    "    for (Row row_ : sheet_) {\n",
+    "        for (Cell cell_ : row_) {\n",
+    "            //process the cells (write your code here)\n",
+    "            \n",
+    "        }\n",
+    "    }\n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Workbook"
+  ],
+  "info": [
+    "target workbook"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "Row": "org.apache.poi.ss.usermodel.Row",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet",
+    "Workbook": "org.apache.poi.ss.usermodel.Workbook"
+  }
+}

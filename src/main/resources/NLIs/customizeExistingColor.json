@@ -1,0 +1,37 @@
+{
+  "functionalFeature": "customize existing color",
+  "text": [
+    "HSSFWorkbook wb_ = ",
+    "<HOLE0>",
+    ";\n",
+    "HSSFPalette palette_ = wb_.getCustomPalette();\n",
+    "palette_.setColorAtIndex(",
+    "<HOLE1>",
+    ".getIndex(), (byte) ",
+    "<HOLE2>",
+    ", (byte) ",
+    "<HOLE3>",
+    ", (byte) ",
+    "<HOLE4>",
+    ");\n"
+  ],
+  "type": [
+    "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "int",
+    "int",
+    "int"
+  ],
+  "info": [
+    "target HSSFWorkbook",
+    "color to customize",
+    "red",
+    "green",
+    "blue"
+  ],
+  "symbol": {
+    "IndexedColors": "org.apache.poi.ss.usermodel.IndexedColors",
+    "HSSFWorkbook": "org.apache.poi.hssf.usermodel.HSSFWorkbook",
+    "HSSFPalette": "org.apache.poi.hssf.usermodel.HSSFPalette"
+  }
+}

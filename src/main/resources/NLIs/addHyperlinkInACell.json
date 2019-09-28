@@ -1,0 +1,28 @@
+{
+  "functionalFeature": "add hyperlink in a cell",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "CreationHelper creationHelper_ = cell_.getRow().getSheet().getWorkbook().getCreationHelper();\n",
+    "Hyperlink link_ = creationHelper_.createHyperlink(HyperlinkType.URL);\n",
+    "link_.setAddress(",
+    "<HOLE1>",
+    ");\n",
+    "cell_.setHyperlink(link_);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell",
+    "java.lang.String"
+  ],
+  "info": [
+    "target cell",
+    "url of the hyperlink"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "CreationHelper": "org.apache.poi.ss.usermodel.CreationHelper",
+    "Hyperlink": "org.apache.poi.ss.usermodel.Hyperlink",
+    "HyperlinkType": "org.apache.poi.common.usermodel.HyperlinkType"
+  }
+}

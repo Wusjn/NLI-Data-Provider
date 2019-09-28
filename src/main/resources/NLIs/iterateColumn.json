@@ -1,0 +1,33 @@
+{
+  "functionalFeature": "iterate a column",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "for (Row row_ : sheet_) {\n",
+    "    Cell cell_ = row_.getCell(",
+    "<HOLE1>",
+    ");\n",
+    "    if (cell_ == null) {\n",
+    "        cell_ = row_.createCell(",
+    "<HOLE1>",
+    ");\n",
+    "    }\n",
+    "    //process the cell (write your code here)\n",
+    "    \n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "int"
+  ],
+  "info": [
+    "target sheet",
+    "target column number"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "Row": "org.apache.poi.ss.usermodel.Row",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

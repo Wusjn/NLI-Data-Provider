@@ -1,0 +1,21 @@
+{
+  "functionalFeature": "get text from cell",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "DataFormatter formatter_ = new DataFormatter();\n",
+    "String text_ = formatter_.formatCellValue(cell_);\n",
+    "//write your code here\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell"
+  ],
+  "info": [
+    "target cell"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "DataFormatter": "org.apache.poi.ss.usermodel.DataFormatter"
+  }
+}

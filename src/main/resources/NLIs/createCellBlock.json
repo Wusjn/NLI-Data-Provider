@@ -1,0 +1,47 @@
+{
+  "functionalFeature": "create a cell block in a sheet",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "for (int i = ",
+    "<HOLE2>",
+    "; i < ",
+    "<HOLE3>",
+    "; i++) {\n",
+    "    Row row_ = sheet_.createRow(i);\n",
+    "    for (int j = ",
+    "<HOLE4>",
+    "; j < ",
+    "<HOLE5>",
+    "; j++) {\n",
+    "        Cell cell_ = row_.createCell(j, ",
+    "<HOLE1>",
+    ");\n",
+    "        //initialize the cells (write your code here)\n",
+    "    }\n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "org.apache.poi.ss.usermodel.CellType",
+    "int",
+    "int",
+    "int",
+    "int"
+  ],
+  "info": [
+    "target sheet",
+    "cell type",
+    "first row",
+    "last row",
+    "first column",
+    "last column"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "CellType": "org.apache.poi.ss.usermodel.CellType",
+    "Row": "org.apache.poi.ss.usermodel.Row",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

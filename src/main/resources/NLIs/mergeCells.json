@@ -1,0 +1,35 @@
+{
+  "functionalFeature": "merge cells",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "sheet_.addMergedRegion(new CellRangeAddress(",
+    "<HOLE1>",
+    ", ",
+    "<HOLE2>",
+    ", ",
+    "<HOLE3>",
+    ", ",
+    "<HOLE4>",
+    "));\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "int",
+    "int",
+    "int",
+    "int"
+  ],
+  "info": [
+    "target sheet",
+    "first row",
+    "last row",
+    "first column",
+    "last column"
+  ],
+  "symbol": {
+    "CellRangeAddress": "org.apache.poi.ss.util.CellRangeAddress",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

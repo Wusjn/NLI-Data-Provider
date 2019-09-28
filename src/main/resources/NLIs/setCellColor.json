@@ -1,0 +1,35 @@
+{
+  "functionalFeature": "set cell color",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "CellStyle style_ = cell_.getCellStyle();\n",
+    "style_.setFillForegroundColor(",
+    "<HOLE1>",
+    ".getIndex());\n",
+    "style_.setFillBackgroundColor(",
+    "<HOLE2>",
+    ".getIndex());\n",
+    "style_.setFillPattern(",
+    "<HOLE3>",
+    ");\n",
+    "cell_.setCellStyle(style_);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "org.apache.poi.ss.usermodel.IndexedColors",
+    "org.apache.poi.ss.usermodel.FillPatternType"
+  ],
+  "info": [
+    "target cell",
+    "Foreground Color",
+    "Background Color",
+    "Fill pattern"
+  ],
+  "symbol": {
+    "CellStyle": "org.apache.poi.ss.usermodel.CellStyle",
+    "Cell": "org.apache.poi.ss.usermodel.Cell"
+  }
+}

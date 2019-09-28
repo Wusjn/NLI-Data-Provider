@@ -26,5 +26,8 @@ public class Type {
         this.className = fullQualifiedName.substring(lastDot + 1);
     }
 
-    public Type(){};
+    public Type() {
+    }
+
+    ;
 }

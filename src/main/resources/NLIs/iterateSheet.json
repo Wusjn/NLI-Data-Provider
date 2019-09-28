@@ -1,0 +1,40 @@
+{
+  "functionalFeature": "iterate a sheet",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "int rowStart_ = sheet_.getFirstRowNum();\n",
+    "int rowEnd_ = sheet_.getLastRowNum();\n",
+    "for (int rowNum_ = rowStart_; rowNum_ <= rowEnd_; rowNum_++) {\n",
+    "    Row r_ = sheet_.getRow(rowNum_);\n",
+    "    if (r_ == null) {\n",
+    "        //process the empty line (write your code here)\n",
+    "        \n",
+    "        continue;\n",
+    "    }\n",
+    "    int lastCol_ = r_.getLastCellNum();\n",
+    "    for (int colNum_ = 0; colNum_ < lastCol_; colNum_++) {\n",
+    "        if (r_.getCell(colNum_) == null) {\n",
+    "            //process the empty cell (write your code here)\n",
+    "            \n",
+    "        } else {\n",
+    "            Cell cell_ = r_.getCell(colNum_);\n",
+    "            //process the normal cell (write your code here)\n",
+    "            \n",
+    "        }\n",
+    "    }\n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet"
+  ],
+  "info": [
+    "target sheet"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "Row": "org.apache.poi.ss.usermodel.Row",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

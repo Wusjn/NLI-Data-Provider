@@ -1,0 +1,27 @@
+{
+  "functionalFeature": "set all columns to autosize",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "int lastCol_ = 0;\n",
+    "for (Row row_ : sheet_) {\n",
+    "    if (row_.getLastCellNum() > lastCol_) {\n",
+    "        lastCol_ = row_.getLastCellNum();\n",
+    "    }\n",
+    "}\n",
+    "for (int colNum_ = 0; colNum_ < lastCol_; colNum_++) {\n",
+    "    sheet_.autoSizeColumn(colNum_);\n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet"
+  ],
+  "info": [
+    "target sheet"
+  ],
+  "symbol": {
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet",
+    "Row": "org.apache.poi.ss.usermodel.Row"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "functionalFeature": "create a new sheet",
+  "text": [
+    "Sheet ",
+    "<HOLE0>",
+    " = ",
+    "<HOLE1>",
+    ".createSheet();\n"
+  ],
+  "type": [
+    "name_property",
+    "org.apache.poi.ss.usermodel.Workbook"
+  ],
+  "info": [
+    "sheet name",
+    "target workbook"
+  ],
+  "symbol": {
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

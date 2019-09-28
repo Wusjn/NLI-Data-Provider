@@ -1,0 +1,30 @@
+{
+  "functionalFeature": "read workbook from file",
+  "text": [
+    "Workbook ",
+    "<HOLE0>",
+    " = null;\n",
+    "try {\n",
+    "    ",
+    "<HOLE0>",
+    " = WorkbookFactory.create(new File(",
+    "<HOLE1>",
+    "));\n",
+    "} catch (Exception e) {\n",
+    "    e.printStackTrace();\n",
+    "}\n"
+  ],
+  "type": [
+    "name_property",
+    "java.lang.String"
+  ],
+  "info": [
+    "workbook name",
+    "path to read"
+  ],
+  "symbol": {
+    "Workbook": "org.apache.poi.ss.usermodel.Workbook",
+    "WorkbookFactory": "org.apache.poi.ss.usermodel.WorkbookFactory",
+    "File": "java.io.File"
+  }
+}

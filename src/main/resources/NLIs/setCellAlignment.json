@@ -1,0 +1,30 @@
+{
+  "functionalFeature": "set cell alignment",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "CellStyle style_ = cell_.getCellStyle();\n",
+    "style_.setAlignment(",
+    "<HOLE1>",
+    ");\n",
+    "style_.setVerticalAlignment(",
+    "<HOLE2>",
+    ");\n",
+    "cell_.setCellStyle(style_);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell",
+    "org.apache.poi.ss.usermodel.HorizontalAlignment",
+    "org.apache.poi.ss.usermodel.VerticalAlignment"
+  ],
+  "info": [
+    "target cell",
+    "horizontal alignment",
+    "vertical alignment"
+  ],
+  "symbol": {
+    "CellStyle": "org.apache.poi.ss.usermodel.CellStyle",
+    "Cell": "org.apache.poi.ss.usermodel.Cell"
+  }
+}

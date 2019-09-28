@@ -33,5 +33,8 @@ public class Method {
         }
     }
 
-    public Method(){};
+    public Method() {
+    }
+
+    ;
 }

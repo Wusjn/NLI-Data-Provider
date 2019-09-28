@@ -29,5 +29,8 @@ public class Constructor {
         }
     }
 
-    public Constructor(){};
+    public Constructor() {
+    }
+
+    ;
 }

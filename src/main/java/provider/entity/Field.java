@@ -34,5 +34,8 @@ public class Field {
         className = classFullName.substring(lastDotIndex + 1);
     }
 
-    public Field(){};
+    public Field() {
+    }
+
+    ;
 }

@@ -1,0 +1,22 @@
+{
+  "functionalFeature": "iterate a row",
+  "text": [
+    "Row row_ = ",
+    "<HOLE0>",
+    ";\n",
+    "for (Cell cell_ : row_) {\n",
+    "    //process the cell (write your code here)\n",
+    "    \n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Row"
+  ],
+  "info": [
+    "target row"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "Row": "org.apache.poi.ss.usermodel.Row"
+  }
+}

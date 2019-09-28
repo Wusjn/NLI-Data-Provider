@@ -1,0 +1,38 @@
+{
+  "functionalFeature": "set print area",
+  "text": [
+    "Workbook wb_ = ",
+    "<HOLE0>",
+    ";\n",
+    "wb_.setPrintArea(",
+    "<HOLE1>",
+    ",",
+    "<HOLE2>",
+    ",",
+    "<HOLE3>",
+    ",",
+    "<HOLE4>",
+    ",",
+    "<HOLE5>",
+    ");\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Workbook",
+    "int",
+    "int",
+    "int",
+    "int",
+    "int"
+  ],
+  "info": [
+    "workbook",
+    "sheet index",
+    "start column",
+    "end column",
+    "start row",
+    "end row"
+  ],
+  "symbol": {
+    "Workbook": "org.apache.poi.ss.usermodel.Workbook"
+  }
+}

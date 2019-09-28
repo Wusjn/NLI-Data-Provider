@@ -1,0 +1,48 @@
+{
+  "functionalFeature": "add a textbox",
+  "text": [
+    "Sheet sheet_ = ",
+    "<HOLE0>",
+    ";\n",
+    "HSSFPatriarch patriarch_ = (HSSFPatriarch) sheet_.getDrawingPatriarch();\n",
+    "if (patriarch_ == null) {\n",
+    "    patriarch_ = ((HSSFPatriarch) sheet_.createDrawingPatriarch());\n",
+    "}\n",
+    "HSSFClientAnchor a_ = new HSSFClientAnchor(0, 0, 0, 0, (short) ",
+    "<HOLE1>",
+    ", ",
+    "<HOLE2>",
+    ", (short) ",
+    "<HOLE3>",
+    ", ",
+    "<HOLE4>",
+    ");\n",
+    "HSSFTextbox textbox_ = patriarch_.createTextbox(a_);\n",
+    "textbox_.setString(new HSSFRichTextString(",
+    "<HOLE5>",
+    "));\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Sheet",
+    "int",
+    "int",
+    "int",
+    "int",
+    "java.lang.String"
+  ],
+  "info": [
+    "target sheet",
+    "start column",
+    "start row",
+    "end column",
+    "end row",
+    "textbox content"
+  ],
+  "symbol": {
+    "HSSFClientAnchor": "org.apache.poi.hssf.usermodel.HSSFClientAnchor",
+    "HSSFPatriarch": "org.apache.poi.hssf.usermodel.HSSFPatriarch",
+    "HSSFRichTextString": "org.apache.poi.hssf.usermodel.HSSFRichTextString",
+    "HSSFTextbox": "org.apache.poi.hssf.usermodel.HSSFTextbox",
+    "Sheet": "org.apache.poi.ss.usermodel.Sheet"
+  }
+}

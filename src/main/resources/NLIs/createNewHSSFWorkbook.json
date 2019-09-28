@@ -1,0 +1,17 @@
+{
+  "functionalFeature": "create a new HSSF Workbook",
+  "text": [
+    "HSSFWorkbook ",
+    "<HOLE0>",
+    " = new HSSFWorkbook();\n"
+  ],
+  "type": [
+    "name_property"
+  ],
+  "info": [
+    "workbook name"
+  ],
+  "symbol": {
+    "HSSFWorkbook": "org.apache.poi.hssf.usermodel.HSSFWorkbook"
+  }
+}

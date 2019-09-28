@@ -1,0 +1,48 @@
+{
+  "functionalFeature": "set cell borders",
+  "text": [
+    "Cell cell_ = ",
+    "<HOLE0>",
+    ";\n",
+    "CellStyle style_ = cell_.getCellStyle();\n",
+    "style_.setBorderLeft(",
+    "<HOLE1>",
+    ");\n",
+    "style_.setLeftBorderColor(",
+    "<HOLE2>",
+    ".getIndex());\n",
+    "style_.setBorderRight(",
+    "<HOLE1>",
+    ");\n",
+    "style_.setRightBorderColor(",
+    "<HOLE2>",
+    ".getIndex());\n",
+    "style_.setBorderTop(",
+    "<HOLE1>",
+    ");\n",
+    "style_.setTopBorderColor(",
+    "<HOLE2>",
+    ".getIndex());\n",
+    "style_.setBorderBottom(",
+    "<HOLE1>",
+    ");\n",
+    "style_.setBottomBorderColor(",
+    "<HOLE2>",
+    ".getIndex());\n",
+    "cell_.setCellStyle(style_);\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Cell",
+    "org.apache.poi.ss.usermodel.BorderStyle",
+    "org.apache.poi.ss.usermodel.IndexedColors"
+  ],
+  "info": [
+    "target cell",
+    "border style",
+    "border color"
+  ],
+  "symbol": {
+    "Cell": "org.apache.poi.ss.usermodel.Cell",
+    "CellStyle": "org.apache.poi.ss.usermodel.CellStyle"
+  }
+}

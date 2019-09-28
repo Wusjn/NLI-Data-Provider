@@ -1,0 +1,35 @@
+{
+  "functionalFeature": "save workbook to file",
+  "text": [
+    "Workbook wb_ = ",
+    "<HOLE0>",
+    ";\n",
+    "try {\n",
+    "    OutputStream fileout_ = new FileOutputStream(",
+    "<HOLE1>",
+    ");\n",
+    "    wb_.write(fileout_);\n",
+    "    fileout_.close();\n",
+    "    wb_.close();\n",
+    "} catch (FileNotFoundException e) {\n",
+    "    e.printStackTrace();\n",
+    "} catch (IOException e) {\n",
+    "    e.printStackTrace();\n",
+    "}\n"
+  ],
+  "type": [
+    "org.apache.poi.ss.usermodel.Workbook",
+    "java.lang.String"
+  ],
+  "info": [
+    "target workbook",
+    "path to save"
+  ],
+  "symbol": {
+    "IOException": "java.io.IOException",
+    "OutputStream": "java.io.OutputStream",
+    "FileNotFoundException": "java.io.FileNotFoundException",
+    "FileOutputStream": "java.io.FileOutputStream",
+    "Workbook": "org.apache.poi.ss.usermodel.Workbook"
+  }
+}

@@ -8,14 +8,14 @@ import java.util.List;
 
 
 @Data
-public class ContextVariableNode implements CompletionNode{
+public class ContextVariableNode implements CompletionNode {
     private ContextVariable contextVariable;
 
-    public String toCode(){
+    public String toCode() {
         return contextVariable.getName();
     }
 
-    public ContextVariableNode(ContextVariable contextVariable){
+    public ContextVariableNode(ContextVariable contextVariable) {
         this.contextVariable = contextVariable;
     }
 
